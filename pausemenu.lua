@@ -1,18 +1,18 @@
                                                           --> تعريب منيو فايف-ام <-- 
-														 --Discord e22.\Ramy#9442 حقوق--
+					              --Discord e22.\Ramy#9442 حقوق--
 
 -- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -- <القوائم الاعلى> Done
 Citizen.CreateThread(function()
-	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'FE_THDR_GTAO', '')--> name server
-	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_MAP', "<FONT FACE = 'space'>"..'ﺔﻄﻳﺮﺨﻟﺍ')--> Map
+    Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'FE_THDR_GTAO', '')--> name server
+    Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_MAP', "<FONT FACE = 'space'>"..'ﺔﻄﻳﺮﺨﻟﺍ')--> Map
 --===========================================================================================================================================
-	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_GAM', "<FONT FACE = 'space'>"..'ﺔﺒﻌﻠﻟﺍ ﻦﻣ ﺓﺭﺩﺎﻐﻤﻟﺍ')--> Game
+    Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_GAM', "<FONT FACE = 'space'>"..'ﺔﺒﻌﻠﻟﺍ ﻦﻣ ﺓﺭﺩﺎﻐﻤﻟﺍ')--> Game
                 -- قوائم (المغادرة من اللعبة):
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_PANE_LEAVE', "<FONT FACE = 'space'>"..'ﺮﻓﺮﻴﺴﻟﺍ ﻦﻣ ﺝﻭﺮﺨـﻟﺍ')--> Leave
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_PANE_QUIT', "<FONT FACE = 'space'>"..'ﺔﺒﻌﻠﻟﺍ ﻦﻣ ﺝﻭﺮﺨـﻟﺍ')--> Quit
 --===========================================================================================================================================
-	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_INF', "<FONT FACE = 'space'>"..'ﺮﻓﺮﻴﺴﻟﺍ ﺕﺎﻣﻮﻠﻌﻣ')--> Info
+    Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_INF', "<FONT FACE = 'space'>"..'ﺮﻓﺮﻴﺴﻟﺍ ﺕﺎﻣﻮﻠﻌﻣ')--> Info
                 -- قوائم (معلومات السيرفر):
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_PANE_MIS', "<FONT FACE = 'space'>"..'ﺮﻓﺮﻴﺴﻟﺍ ﻦﻋ ﻩﺬﺒﻧ')--> Mission
 SetMissionName_2(true, "Job: Police")--> صفحة النبذه
@@ -20,7 +20,7 @@ SetMissionName_2(true, "Job: Police")--> صفحة النبذه
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_PANE_BRI', "<FONT FACE = 'space'>"..'[ﺐﻳﺮﻌﺗ] Discord ~y~RAMY#9442')--> Dialogue
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_PANE_FEE', "<FONT FACE = 'space'>"..'ﺕﺍﺭﺎﻌﺷﻹﺍ')--> Notifications
 --===========================================================================================================================================
-	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_STA', "<FONT FACE = 'space'>"..'ﺕﺎﻴﺋﺎﺼﺣﺍ')--> Stats
+    Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_STA', "<FONT FACE = 'space'>"..'ﺕﺎﻴﺋﺎﺼﺣﺍ')--> Stats
                 -- قوائم (احصائيات):
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'MP_STATS1', "<FONT FACE = 'space'>"..'ﺐﻋﻻﺍ ﺔﻴﺼﺨﺷ')-->--> Career
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'MP_STATS2', "<FONT FACE = 'space'>"..'ﺕﺍﺭﺎﻬﻤﻟﺍ')--> Skills
@@ -34,7 +34,7 @@ SetMissionName_2(true, "Job: Police")--> صفحة النبذه
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'***', "<FONT FACE = 'space'>"..'***')--> Unlocks
 --===========================================================================================================================================
                 -- قوائم (الإعدادات):
-	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_SET', "<FONT FACE = 'space'>"..'ﺕﺍﺩﺍﺪﻋﻹﺍ')--> Settings
+    Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_SET', "<FONT FACE = 'space'>"..'ﺕﺍﺩﺍﺪﻋﻹﺍ')--> Settings
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_PANE_GPC', "<FONT FACE = 'space'>"..'ﻢﻜﺤﺘﻟﺍ ﺪﻳ')--> Gamepad
                 -- قوائم (يد التحكم):
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'MO_CTRL_CONTEXT', "<FONT FACE = 'space'>"..'ﻢﻜﺤﺘﻟﺍ ﺮﺻﺎﻨﻋ ﺽﺮﻋ')--> Show Controls For
@@ -206,9 +206,9 @@ SetMissionName_2(true, "Job: Police")--> صفحة النبذه
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'REDITOR_TOOLTIP', "<FONT FACE = 'space'>"..'Rockstar ﺭﺮﺤﻣ ﺕﺍﻭﺩﺃ ﺕﺎﺤﻴﻤﻠﺗ')--> Rockstar Editor Toolitips
     Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'REDITOR_EXPORT_GRAPHICS_UPGRADE', "<FONT FACE = 'space'>"..'ﻮﻳﺪﻔﻟﺍ ﺮﻳﺪﺼﺘﻟ ﺕﺎﻣﻮﺳﺮﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﺔﻴﻗﺮﺗ')--> Upgrade Graphics Settings For Video Export
 --===========================================================================================================================================
-	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_GAL', "<FONT FACE = 'space'>"..'ﺭﻮﺼﻟﺍ ﻡﻮﺒﻟﺍ')--> Gallery
+    Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_GAL', "<FONT FACE = 'space'>"..'ﺭﻮﺼﻟﺍ ﻡﻮﺒﻟﺍ')--> Gallery
                 -- لا يوجد قوائم (البوم الصور):
-	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_RPL', "<FONT FACE = 'space'>"..'ﺭﻮﺘﻳﺩﺍ ﺭﺎﺘﺴﻛﻭﺭ')--> Rockstar Editor
+    Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"),'PM_SCR_RPL', "<FONT FACE = 'space'>"..'ﺭﻮﺘﻳﺩﺍ ﺭﺎﺘﺴﻛﻭﺭ')--> Rockstar Editor
                 -- لا يوجد قوائم (روكستار اديتور):
 --===========================================================================================================================================
                 -- الهيدر الأسفل:
